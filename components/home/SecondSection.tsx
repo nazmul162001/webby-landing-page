@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SecondSection = () => {
   return (
-    <section className="relative bg-white px-8 py-12">
+    <section className="relative px-8 py-12 w-[90%] m-auto">
       {/* Background Image */}
       <div
         className="absolute bottom-0 -right-[50%] w-full h-full bg-cover bg-no-repeat bg-right opacity-20"
@@ -74,7 +74,9 @@ const SecondSection = () => {
           />
         </div>
       </div>
-      <GradientLine />
+      <div className="mt-6 w-full">
+        <GradientLine />
+      </div>
     </section>
   );
 };

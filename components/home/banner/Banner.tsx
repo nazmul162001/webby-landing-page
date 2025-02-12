@@ -55,7 +55,7 @@ const Banner = () => {
         </div>
 
         {/* Right Image Section with Clip Path */}
-        <div className="absolute top-0 right-0 w-[50%] h-full hidden md:block overflow-hidden">
+        <div className="absolute top-0 right-0 w-[50%] h-[80vh] hidden md:block overflow-hidden">
           <div className="absolute inset-0">
             <Image
               src="/banner.png"
