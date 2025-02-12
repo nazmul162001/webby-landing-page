@@ -13,9 +13,10 @@ export default function Home() {
           <Banner />
           <SecondSection />
           <ThirdSection />
-          <FourthSection />
+          <FourthSection url="bg_2" />
           <SectionFive />
           <SectionSix />
+          <FourthSection url="bg_33" />
         </div>
       </main>
     </section>

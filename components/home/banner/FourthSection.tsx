@@ -1,8 +1,8 @@
-const FourthSection = () => {
+const FourthSection = ({ url }: { url: string }) => {
   return (
     <section
       className="relative w-[95%] md:w-[90%] m-auto h-full py-10 md:py-0 md:h-[70vh] bg-cover bg-center flex items-center text-white px-4 md:px-8"
-      style={{ backgroundImage: "url('/bg_2.png')" }}
+      style={{ backgroundImage: `url('/${url}.png')` }}
     >
       {/* Logo */}
       <div className="absolute top-4 left-4 md:top-6 md:left-6 bg-white px-3 md:px-4 py-1 md:py-2 text-black font-bold text-sm md:text-lg">
