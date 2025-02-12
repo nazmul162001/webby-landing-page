@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
+import Banner from "@/components/home/banner/Banner";
 
 export default function Home() {
   return (
     <section className="px-5 my-10">
       <main>
         <div>
-          <Button>Learn More</Button>
+          <Banner />
         </div>
       </main>
     </section>
