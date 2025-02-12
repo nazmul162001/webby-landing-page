@@ -1,4 +1,5 @@
 import Banner from "@/components/home/banner/Banner";
+import FourthSection from "@/components/home/banner/FourthSection";
 import ThirdSection from "@/components/home/banner/ThirdSection";
 import SecondSection from "@/components/home/SecondSection";
 
@@ -10,6 +11,7 @@ export default function Home() {
           <Banner />
           <SecondSection />
           <ThirdSection />
+          <FourthSection />
         </div>
       </main>
     </section>

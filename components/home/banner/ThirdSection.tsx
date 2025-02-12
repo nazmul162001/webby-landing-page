@@ -28,7 +28,7 @@ const ThirdSection = () => {
                   <div className="w-16 h-16 transform rotate-45 mx-3">
                     <Image
                       className="rounded-tr-lg rounded-bl-lg"
-                      src="/bike.png"
+                      src="/icon.png"
                       alt="Icon"
                       width={34}
                       height={34}
@@ -55,7 +55,7 @@ const ThirdSection = () => {
         <div className="relative">
           <div className="rounded-lg overflow-hidden">
             <Image
-              src="/bike.png"
+              src="/man.png"
               alt="People Talking"
               width={600}
               height={400}
