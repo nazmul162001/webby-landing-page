@@ -8,7 +8,9 @@ import Footer from "@/components/home/Footer";
 import Form from "@/components/home/Form";
 import SecondSection from "@/components/home/SecondSection";
 import SectionEight from "@/components/home/SectionEight";
+import SectionNine from "@/components/home/SectionNine";
 import SectionSix from "@/components/home/SectionSix";
+import SectionTen from "@/components/home/SectionTen";
 
 export default function Home() {
   return (
@@ -26,6 +28,8 @@ export default function Home() {
           <DownloadApp />
           {/* <ImageGallery /> */}
           <SectionEight />
+          <SectionNine />
+          <SectionTen />
           <FAQ />
           <Footer />
         </div>
