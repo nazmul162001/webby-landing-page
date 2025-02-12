@@ -2,6 +2,7 @@ import Banner from "@/components/home/banner/Banner";
 import FourthSection from "@/components/home/banner/FourthSection";
 import SectionFive from "@/components/home/banner/SecctionFive";
 import ThirdSection from "@/components/home/banner/ThirdSection";
+import Form from "@/components/home/Form";
 import SecondSection from "@/components/home/SecondSection";
 import SectionSix from "@/components/home/SectionSix";
 
@@ -17,6 +18,7 @@ export default function Home() {
           <SectionFive />
           <SectionSix />
           <FourthSection url="bg_33" />
+          <Form />
         </div>
       </main>
     </section>
