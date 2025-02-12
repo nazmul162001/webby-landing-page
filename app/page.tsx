@@ -6,6 +6,7 @@ import DownloadApp from "@/components/home/DownloadApp";
 import FAQ from "@/components/home/FAQ";
 import Footer from "@/components/home/Footer";
 import Form from "@/components/home/Form";
+import Review from "@/components/home/Review";
 import SecondSection from "@/components/home/SecondSection";
 import SectionEight from "@/components/home/SectionEight";
 import SectionNine from "@/components/home/SectionNine";
@@ -28,6 +29,7 @@ export default function Home() {
           <DownloadApp />
           {/* <ImageGallery /> */}
           <SectionEight />
+          <Review />
           <SectionNine />
           <SectionTen />
           <FAQ />
