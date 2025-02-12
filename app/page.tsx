@@ -3,6 +3,7 @@ import FourthSection from "@/components/home/banner/FourthSection";
 import SectionFive from "@/components/home/banner/SecctionFive";
 import ThirdSection from "@/components/home/banner/ThirdSection";
 import SecondSection from "@/components/home/SecondSection";
+import SectionSix from "@/components/home/SectionSix";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           <ThirdSection />
           <FourthSection />
           <SectionFive />
+          <SectionSix />
         </div>
       </main>
     </section>
