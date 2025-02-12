@@ -5,6 +5,7 @@ import ThirdSection from "@/components/home/banner/ThirdSection";
 import DownloadApp from "@/components/home/DownloadApp";
 import Form from "@/components/home/Form";
 import SecondSection from "@/components/home/SecondSection";
+import SectionEight from "@/components/home/SectionEight";
 import SectionSix from "@/components/home/SectionSix";
 
 export default function Home() {
@@ -21,6 +22,8 @@ export default function Home() {
           <FourthSection url="bg_33" />
           <Form />
           <DownloadApp />
+          {/* <ImageGallery /> */}
+          <SectionEight />
         </div>
       </main>
     </section>
