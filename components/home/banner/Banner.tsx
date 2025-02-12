@@ -74,7 +74,7 @@ const Banner = () => {
   );
 };
 
-const NavItem = ({ text }) => {
+const NavItem = ({ text }: { text: string }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
