@@ -3,6 +3,8 @@ import FourthSection from "@/components/home/banner/FourthSection";
 import SectionFive from "@/components/home/banner/SecctionFive";
 import ThirdSection from "@/components/home/banner/ThirdSection";
 import DownloadApp from "@/components/home/DownloadApp";
+import FAQ from "@/components/home/FAQ";
+import Footer from "@/components/home/Footer";
 import Form from "@/components/home/Form";
 import SecondSection from "@/components/home/SecondSection";
 import SectionEight from "@/components/home/SectionEight";
@@ -24,6 +26,8 @@ export default function Home() {
           <DownloadApp />
           {/* <ImageGallery /> */}
           <SectionEight />
+          <FAQ />
+          <Footer />
         </div>
       </main>
     </section>
